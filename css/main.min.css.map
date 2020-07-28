@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AUJD,AAAA,EAAE,AAAC,CACC,UAAU,CAAE,IAAI,CACnB,AAED,AAAA,CAAC,AAAA,IAAK,CAAA,UAAU,CAAE,CACd,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,MAAM,CACb,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,IAAI,CACf,AAED,AAAA,EAAE,AAAC,CACC,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CACrB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_normalise.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_page-header.scss",
+        "../sass/components/_hero.scss",
+        "../sass/utils/_modal.scss",
+        "../sass/components/_functions.scss",
+        "../sass/components/_doing.scss",
+        "../sass/components/_team.scss",
+        "../sass/components/_footer.scss",
+        "../sass/components/_customers.scss",
+        "../sass/base/_base.scss",
+        "../sass/components/_portfolio-project.scss",
+        "../sass/components/_portsolio-buttons.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

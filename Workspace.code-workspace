@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "..\\..\\images"
+		},
+		{
+			"name": "GitHub",
+			"path": "..\\..\\..\\Documents\\GitHub"
+		},
+		{
+			"name": "photo",
+			"path": "..\\..\\photo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GitHub"
+	}
+}
