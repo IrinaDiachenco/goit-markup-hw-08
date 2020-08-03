@@ -1,0 +1,157 @@
+@import '../utils/variables';
+
+footer {
+    background-color: $footer-bg-color;
+    text-align: center;
+}
+
+.footer {
+ &-items {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+ &-text-item {
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $header-bg-color;
+    margin-top: 60px;
+ }
+
+ &-links {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ &-links .link-bg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ &-links .link-bg:hover {
+    background-color: $accent-color;
+ }
+
+ &-links .link-bg .icon-instagram {
+    width: 20px;
+    height: 20px;
+    fill: $header-bg-color;
+ }
+ 
+ &-links .link-bg .icon-twitter {
+    width: 20px;
+    height: 20px;
+    fill: $header-bg-color;
+ }
+
+ &-links .link-bg .icon-fb {
+    width: 20px;
+    height: 20px;
+    fill: $header-bg-color;
+ }
+
+ &-links .link-bg .icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: $header-bg-color;
+ }
+
+ &-items .email, &-items .tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    
+ }
+
+ &-text {
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: $header-bg-color;
+    
+ }
+
+ &-form-box {
+    
+ }
+
+ &-form-box input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 450px;
+    height: 50px;
+    padding: 15px 16px;
+    background-color: $footer-bg-color;
+    margin-right: 12px;
+
+ }
+
+ &-button {
+    color: $header-bg-color;
+    background-color: $accent-color;
+    margin-top: 20px;
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+ }
+}
+
+.icon-send {
+    width: 24px;
+    height: 24px;
+    fill: $header-bg-color;
+    margin-left: 10px;
+    
+}
+
+.contacts {
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+@import '../utils/variables';
+
+.logo {
+    font-family: $font-logo;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $title-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover {
+    color: $accent-text-color;
+ }
+
+ &-web {
+    color: $accent-text-color;
+ }
+
+ footer & {
+    color: $header-bg-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
