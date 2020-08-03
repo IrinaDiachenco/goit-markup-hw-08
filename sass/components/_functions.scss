@@ -1,0 +1,59 @@
+@import '../utils/variables';
+
+.functions {
+    padding-bottom: 0px;
+    padding-top: 60px;
+}
+.function {
+ &-items {
+    padding-bottom: 0px;
+    padding-left: 0px;
+ }
+
+ &-logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 120px;
+    background: $secondary-bg-color;
+ }
+}
+
+.secondary-function {
+   display: flex;
+   justify-content: center;
+   width: 450px;
+   height: 16px;
+   font-family: $fonts;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.14;
+   margin-bottom: 10px;
+}
+
+.icon {
+ &-antenna {
+    width: 65.32px;
+    height: 70px;
+    fill: $title-text-color;
+ }
+
+ &-clock {
+    width: 66.96px;
+    height: 70px;
+    fill: $title-text-color;
+ }
+
+ &-diagram {
+    width: 70px;
+    height: 53.69px;
+    fill: $title-text-color;
+ }
+
+ &-astronaut {
+    width: 70px;
+    height: 70px;
+    fill: $title-text-color;
+ }
+}
