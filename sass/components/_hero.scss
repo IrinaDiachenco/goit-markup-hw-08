@@ -1,0 +1,43 @@
+@import '../utils/variables';
+
+.hero {
+    &-section {
+       max-width: 767px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       padding-bottom: 118px;
+       padding-top: 118px;
+       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/heromg.jpg);
+    }
+   
+    &-tittle {
+       font-family: $fonts;
+       font-weight: 900;
+       font-size: 26px;
+       line-height: 1.62;
+       color: $header-bg-color;
+       text-align: center;
+       margin-bottom: 30px;
+    }
+    &-section .container {
+       text-align: center;
+    }
+   }
+   
+   .button-hero {
+       color: $header-bg-color;
+       background-color: $accent-color;
+       font-family: $fonts;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 16px;
+       line-height: 1.88;
+       width: 200px;
+       height: 50px;
+       cursor: pointer;
+       border-radius: 4px;
+       border: 0px;
+   }
+   
