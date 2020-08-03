@@ -1,0 +1,108 @@
+@import '../utils/variables';
+
+.customers-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title-clients {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.18;
+}
+
+.customers-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+
+ .item {
+    width: 210px;
+    height: 90px;
+    width: calc((100% - 4 * 15px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+ .item:hover {
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    fill: $accent-color;
+ }
+
+ .item:hover svg {
+    fill: inherit;
+ }
+}
+.icon-logo1 {
+    width: 44.27px;
+    height: 49.23px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo2 {
+    width: 40px;
+    height: 52px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo3 {
+    width: 41px;
+    height: 42.6px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo4 {
+    width: 79.66px;
+    height: 42.02px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo5 {
+    width: 59px;
+    height: 47px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo6 {
+    width: 88.48px;
+    height: 45.44px;
+    fill: $client-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
