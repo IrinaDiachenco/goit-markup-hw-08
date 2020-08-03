@@ -197,6 +197,122 @@
           transform: translateY(-50px) translateX(-40%);
 }
 
+.comment:focus + .form-label,
+.comment:not(:placeholder-shown) + .form-label {
+  color: #188CE8;
+  -webkit-transform: translateY(-50px) translateX(-70%);
+          transform: translateY(-50px) translateX(-70%);
+}
+
+.form-field {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.icon-form {
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  fill: #212121;
+}
+
+.button-close {
+  width: 11px;
+  height: 11px;
+  fill: #000000;
+}
+
+.button-close:focus, .button-close:hover {
+  fill: #2196F3;
+}
+
+.close-bg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.close-bg:hover .button-close {
+  fill: #2196F3;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.text-form {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.text-form-secondary {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #757575;
+  text-align: center;
+}
+
+.text-link {
+  color: #188CE8;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkbox-label .checkbox-icon {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.checkbox:checked + .checkbox-icon {
+  display: inline-block;
+  position: absolute;
+  background-color: #2196F3;
+  background-image: url(../images/icon-check1.svg);
+  border: 2px solid #2196F3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 ul {
   list-style: none;
 }

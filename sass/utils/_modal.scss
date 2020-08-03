@@ -118,4 +118,117 @@
     color: #188CE8;
     transform: translateY(-50px) translateX(-40%);
  }
+
+ &:focus + .form-label,
+ &:not(:placeholder-shown) + .form-label {
+   color: #188CE8;
+   transform: translateY(-50px) translateX(-70%);
+ }
+}
+
+.form-field {
+    margin-bottom: 28px;
+    position: relative;
+
+ input:focus,
+ textarea:focus {
+    outline: none;
+    border-color: $accent-color;
+ }
+}
+
+.icon-form {
+   position: absolute;
+   top: 50%;
+   left: 19px;
+   transform: translateY(-50%);
+   display: inline-block;
+   fill: #212121;
+}
+
+.button-close {
+    width: 11px;
+    height: 11px;
+    fill: #000000;
+
+ &:focus,
+ &:hover {
+    fill: #2196F3;
+ }
+}
+
+.close-bg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    background-color: $header-bg-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+ &:hover .button-close {
+    fill: #2196F3;
+ }
+}
+
+.text {
+    font-family: $fonts;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $secondary-text-color;
+
+ &-form {
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+ }
+
+ &-form-secondary {
+    display: block;
+    font-family: $fonts;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #757575;
+    text-align: center;
+ }
+
+ &-link {
+    color: #188CE8;
+ }
+}
+
+.checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+ &-label &-icon {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+ }
+
+ &:checked + &-icon {
+    display: inline-block;
+    position: absolute;
+    background-color: $accent-color;
+    background-image: url(../images/icon-check1.svg);
+    border: 2px solid $accent-color;
+    justify-content: center;
+ }
 }
